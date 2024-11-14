@@ -6,8 +6,6 @@ import { StatsigClient} from '@statsig/js-client';
 
 function App() {
 
-  const YOUR_SDK_KEY = "";
-
   const user = { userID: 'some_user_id-333' };
   const options = {
     environment: { tier: "development" }
